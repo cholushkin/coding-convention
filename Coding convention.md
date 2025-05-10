@@ -76,6 +76,13 @@ public class PlayerController : MonoBehaviour
 }
 ```
 
+- Class names:
+  - `Manager`: Used for classes that manage multiple similar entities.
+  - `Controller`: Used for classes that control parts of a single complex entity.
+  - `Processor`: Used for classes that continuously process data and provide results.
+  - `Service`: Provides utility functions, external system access, or cross-cutting concerns (e.g., logging, saving, analytics)
+
+
 ## Code Style and Formatting
 
 - **Indentation:** Use 4 spaces for indentation. Avoid tabs. Configure your IDE accordingly.   
