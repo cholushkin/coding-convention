@@ -1,12 +1,3 @@
-# Coding convention
-
-This document describes coding convention that blends industry best practices with Unity's specific needs, designed for readability, maintainability, and collaboration.
-
-Important mindset points:
-- The value of a coding convention is in its consistent application across the codebase. Prioritize adherence over personal preferences; avoid debates about minor stylistic choices.
-- Remember that you write code for other programmers, not just for the machine. Make your code concise and expressive, but avoid being fanatical about it.
-
-
 ## File and Folder Structure
 
 - Repository root level Prj:
@@ -81,7 +72,10 @@ public class PlayerController : MonoBehaviour
   - `Controller`: Used for classes that control parts of a single complex entity.
   - `Processor`: Used for classes that continuously process data and provide results.
   - `Service`: Provides utility functions, external system access, or cross-cutting concerns (e.g., logging, saving, analytics)
-
+- Events naming: 
+  - Event name starts from `Event`: `EventRetrieveSimpleGUIInstance`
+  - Handler of the event has name `Handle`:         
+  ```private void Handle(EventRetrieveSimpleGUIInstance eventRetrieveSimpleGUIInstance, PublishContext context)```
 
 ## Code Style and Formatting
 
