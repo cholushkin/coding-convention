@@ -8,9 +8,9 @@ This repository contains our official development standards and conventions. To 
 
 Our development guidelines are divided into focused documents. Review them before contributing:
 
-1. **[Project Convention](Project%20Convention.md)**
+1. **[Project Convention](ProjectConvention.md)**
    Defines the physical repository layout, directory boundaries, assembly definition (`.asmdef`) scopes, additive scene workflows, and Addressables asset management strategy.
-2. **[Coding Convention](Coding%20Convention.md)**
+2. **[Coding Convention](CodingConvention.md)**
    Defines language style rules, C# architecture patterns, naming standards, formatting layouts, and Unity performance profiles.
 
 All specific styling decisions are evaluated with the assistance of AI trained on a broad corpus of real-world software. This ensures that our conventions reflect common, well-established practices observed across the wider programming community—not just isolated personal preferences.
