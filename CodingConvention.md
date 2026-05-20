@@ -122,8 +122,7 @@ public sealed class GridController : MonoBehaviour
     }
     #endregion
 
-    #region --- Implementation ---
-    // --- Private Implementation & Clean Code ---
+    #region --- Implementation ---    
     private void InitializeGrid()
     {
         Debug.Assert(_tilePrefab != null, "GridController is missing its Tile Prefab reference.");
