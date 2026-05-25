@@ -91,34 +91,6 @@ feat(save)!: replace serialization format
 
 ---
 
-# Breaking Changes
-
-Breaking changes must be explicit.
-
-Use:
-
-```text
-!
-```
-
-or:
-
-```text
-BREAKING CHANGE:
-```
-
-Examples:
-
-```text
-feat(core)!: remove legacy inventory api
-```
-
-```text
-BREAKING CHANGE: save files are incompatible with previous versions
-```
-
----
-
 # Unity-Specific Breaking Changes
 
 Examples of breaking changes in Unity ecosystems:
